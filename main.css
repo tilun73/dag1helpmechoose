@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  background-color: pink;
+//background-color: linear-gradient(to right, rgb(156,205,111) 0%, rgb(85,141,105) 100%);
+}
+
+h1{
+  font-weight: lighter;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  color: red;
+  font-family: arial;
+}
+.inputsection{
+  margin: 50px 0px 80px 0px;
+  width: 350px;
+}
+.inputs{
+  width: inherit;
+  display:flex;
+  flex-direction: column;
+}
+
+input{
+  margin-top: 10px;
+}
+
+.addoption{
+  margin-top: 10px;
+}
+button{
+  background-color: black;
+  color: white;
+}
