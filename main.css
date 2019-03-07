@@ -3,21 +3,22 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 150px;
-  background-color: pink;
-//background-color: linear-gradient(to right, rgb(156,205,111) 0%, rgb(85,141,105) 100%);
+  margin-top: 200px;
+  //background-color: pink;
+background-image: linear-gradient(to right, rgb(156,205,111), rgb(85,141,105));
 }
 
 h1{
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 40px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 0px;
-  color: red;
-  font-family: arial;
+  color: white;
+  font-family: serif;
 }
+
 .inputsection{
-  margin: 50px 0px 80px 0px;
+  margin: 30px 0px 60px 0px;
   width: 350px;
 }
 .inputs{
@@ -33,7 +34,5 @@ input{
 .addoption{
   margin-top: 10px;
 }
-button{
-  background-color: black;
-  color: white;
+.p1{
 }
